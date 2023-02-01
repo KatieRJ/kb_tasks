@@ -1,54 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title><?php echo $title ?> </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-<style>
-  a, .nav-link,.navbar-brand {
-    color: white;
-}
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <title>Crush Coffee</title>
 </head>
 <body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Keita</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Ex1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-</div> 
-  <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-      <h3>List of Tasks</h3>
-      some thing here
-    </div>
-    <div class="col-sm-9">
+    <div class="bg-image"></div>
+
+    <header>
+        <ul class="topnav">
+            <li class="right"><a href="index.html">Crush Café</a></li>
+            <li><a class="active" href="ex1.php"><u>Exercise1</u></a></li>
+            <li class="Coffee"><a href="#">Coffee</a></li>
+            <li class="Find"><a href="#">Find US</a></li>
+            <li class="About"><a href="#">About US</a></li>
+          </ul>          
+    </header>

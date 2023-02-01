@@ -1,7 +1,7 @@
 
     <?php include "header.php" ?>
 
-
+<div class = "text">
     <h1> Write a simple PHP script to print your information (Name and your groupid) </h1>
 <?php
 echo "Keita Brudere <br>";
@@ -55,5 +55,6 @@ echo "
 <img src="proof.png" width=700px>
 
 
-
+</div>
 <?php include "footer.php" ?>
+
