@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title><?php echo "$title" ?> </title>
 </head>
 <body>
@@ -21,7 +22,8 @@
             <li class="right"><a href="index.html">Crush Café</a></li>
             <li><a class="active" href="ex1.php"><u>Exercise1</u></a></li>
             <li class="Coffee"><a href="index.php"> Exercise2</a></li>
-            <li class="Find"><a href="#">Find US</a></li>
+            <li class="Find"><a href="variable.php">Exercise3</a></li>
             <li class="About"><a href="#">About US</a></li>
           </ul>          
     </header>
+    <div class = "text">

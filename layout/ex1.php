@@ -54,8 +54,7 @@ echo "
 
 <h1> Screenshot Task </h1>
 <img src="proof.png" width=700px>
-
-
 </div>
 <?php include "footer.php" ?>
+
 
