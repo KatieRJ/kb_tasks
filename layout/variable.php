@@ -79,6 +79,8 @@ echo $number1 + $number2 + $number3;
 $host = $_SERVER['HTTP_USER_AGENT'];
 echo $host;
 
+
+
 ?>
 
 
