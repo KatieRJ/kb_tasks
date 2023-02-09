@@ -24,6 +24,7 @@
             <li class="Coffee"><a href="index.php"> Exercise2</a></li>
             <li class="Find"><a href="variable.php">Exercise3</a></li>
             <li class="About"><a href="controlflow.php">Exercise4</a></li>
+            <li class="Find"><a href="array.php">Exercise5</a></li>
           </ul>          
     </header>
     <div class = "text">
