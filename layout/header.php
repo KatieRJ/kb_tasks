@@ -25,6 +25,8 @@
             <li class="Find"><a href="variable.php">Exercise3</a></li>
             <li class="About"><a href="controlflow.php">Exercise4</a></li>
             <li class="Find"><a href="array.php">Exercise5</a></li>
+            <li class="Find"><a href="create.php">Exercise6</a></li>
+            <li class="Find"><a href="read.php">Exercise7</a></li>
           </ul>          
     </header>
     <div class = "text">
