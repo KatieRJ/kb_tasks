@@ -14,6 +14,17 @@ echo "BBCAP22";
 <?php
 echo "Hello World ! My name is \" Keita \"";
 ?>
+<br>
+
+<script>
+document.write("Hello world, this is Java Script");
+
+</script>
+<noscript>
+    Please enable JavaScript to view this content.
+</noscript>
+<input type="button" onclick="hello()" value="Click Me">
+
 
     <h1> Write the PHP code in to display the current date. </h1>
 
@@ -26,8 +37,24 @@ echo date("d.m.Y");
     $title1 = "PHP is interesting";
     echo "<h1>" . $title1 . "</h1>";
     ?>
+<script>
+    //window.alert
+   // window.alert("This will trigger an alert box");
+   // window.alert(5+8);
+
+   //document.write
+   document.write("Hello, this is interesting");
+    </script>
 
     <h1> Table and variables </h1>
+    <button onclick="add()" > Click to add numbers </button>
+    <hr>
+    <p id="place1" style="color:red; background-color:yellow;"> </p>
+    <span id="place2" style="color:purple; background-color:violet;"> </span>
+    <script>
+        document.getElementById("place1").innerHTML = "This will go to place1";
+        document.getElementById("place2").innerHTML="This will go to span"
+    </script>
 <?php
 
 $g1 = 5;
@@ -54,6 +81,11 @@ echo "
 
 <h1> Screenshot Task </h1>
 <img src="proof.png" width=700px>
+
+<h2> Changing background-color </h2>
+<form>
+    <input type="color" name="background" onchange="changeColor('background', this.value)">
+</form>
 </div>
 <?php include "footer.php" ?>
 
