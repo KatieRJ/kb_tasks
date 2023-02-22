@@ -4,8 +4,8 @@ include '../layout/header.php';
 ?>
 <div class = "text">
 
-<form method="post" action="">
-    <input type="text" name="fname" placeholder="First Name" required>
+<form method="post" action="" onsubmit="return crud()" name="form1">
+    <input type="text" name="fname" placeholder="First Name" required onblur="fname()">
     <input type="text" name="lname" placeholder="Last Name" required>
     <input type="text" name="city" placeholder="City" required>
     <select name="groupid">
