@@ -19,14 +19,15 @@
 
     <header>
         <ul class="topnav">
-            <li class="right"><a href="index.html">Crush Café</a></li>
-            <li><a class="active" href="ex1.php"><u>Exercise1</u></a></li>
-            <li class="Coffee"><a href="index.php"> Exercise2</a></li>
-            <li class="Find"><a href="variable.php">Exercise3</a></li>
-            <li class="About"><a href="controlflow.php">Exercise4</a></li>
-            <li class="Find"><a href="array.php">Exercise5</a></li>
-            <li class="Find"><a href="create.php">Exercise6</a></li>
-            <li class="Find"><a href="read.php">Exercise7</a></li>
+            <li class="right"><a href="../layout/index.html">Crush Café</a></li>
+            <li><a class="active" href="../layout/ex1.php"><u>Exercise1</u></a></li>
+            <li class="Coffee"><a href="../layout/index.php"> Exercise2</a></li>
+            <li class="Find"><a href="../layout/variable.php">Exercise3</a></li>
+            <li class="About"><a href="../layout/controlflow.php">Exercise4</a></li>
+            <li class="Find"><a href="../layout/array.php">Exercise5</a></li>
+            <li class="Find"><a href="../crud/create.php">Exercise6</a></li>
+            <li class="Find"><a href="../crud/read.php">Exercise7</a></li>
+            
           </ul>          
     </header>
     <div class = "text">
